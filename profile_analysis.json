@@ -1,0 +1,466 @@
+{
+  "status": "complete",
+  "comparison": {
+    "status": "complete",
+    "previous_label": "Previous 60-pair study",
+    "current_label": "Fresh native-trace study",
+    "n_pairs": 60,
+    "n_judgments_per_run": 1440,
+    "agreement": [
+      {
+        "rubric": "transparency",
+        "previous": {
+          "kappa": 0.3256284718082559,
+          "ac1": 0.5381107485488511,
+          "agreement": 0.6527777777777778,
+          "peer_order_components": 6,
+          "defined_kappa_components": 6
+        },
+        "current": {
+          "kappa": 0.34937487775785164,
+          "ac1": 0.5479588997354293,
+          "agreement": 0.6611111111111111,
+          "peer_order_components": 6,
+          "defined_kappa_components": 6
+        }
+      },
+      {
+        "rubric": "consistency",
+        "previous": {
+          "kappa": 0.2258870183479643,
+          "ac1": 0.26280128470466785,
+          "agreement": 0.48888888888888893,
+          "peer_order_components": 6,
+          "defined_kappa_components": 6
+        },
+        "current": {
+          "kappa": 0.256419900535188,
+          "ac1": 0.29483240662125004,
+          "agreement": 0.5111111111111111,
+          "peer_order_components": 6,
+          "defined_kappa_components": 6
+        }
+      },
+      {
+        "rubric": "refinement",
+        "previous": {
+          "kappa": 0.34551561185409413,
+          "ac1": 0.4458440663443917,
+          "agreement": 0.6055555555555555,
+          "peer_order_components": 6,
+          "defined_kappa_components": 6
+        },
+        "current": {
+          "kappa": 0.31935246872442463,
+          "ac1": 0.399715325251559,
+          "agreement": 0.5777777777777778,
+          "peer_order_components": 6,
+          "defined_kappa_components": 6
+        }
+      },
+      {
+        "rubric": "overall",
+        "previous": {
+          "kappa": 0.32185682740519894,
+          "ac1": 0.40396249587488325,
+          "agreement": 0.5805555555555556,
+          "peer_order_components": 6,
+          "defined_kappa_components": 6
+        },
+        "current": {
+          "kappa": 0.35643689439649545,
+          "ac1": 0.4983036398928998,
+          "agreement": 0.6361111111111112,
+          "peer_order_components": 6,
+          "defined_kappa_components": 6
+        }
+      }
+    ],
+    "repeatability": [
+      {
+        "model": "nvidia/openai/gpt-oss-20b",
+        "matching": 385,
+        "n": 480,
+        "agreement": 0.8020833333333334
+      },
+      {
+        "model": "nvidia/qwen/qwen3-32b",
+        "matching": 394,
+        "n": 480,
+        "agreement": 0.8208333333333333
+      },
+      {
+        "model": "nvidia/nvidia/Nemotron-3-Nano-30B-A3B",
+        "matching": 404,
+        "n": 480,
+        "agreement": 0.8416666666666667
+      }
+    ]
+  },
+  "alignment": [
+    {
+      "model": "nvidia/openai/gpt-oss-20b",
+      "rubric": "transparency",
+      "current": {
+        "matching": 83,
+        "n": 120,
+        "agreement": 0.6916666666666667,
+        "kappa": 0.3705549081849962,
+        "order_components": 2,
+        "defined_kappa_components": 2
+      },
+      "previous": {
+        "matching": 83,
+        "n": 120,
+        "agreement": 0.6916666666666667,
+        "kappa": 0.3777782053995805,
+        "order_components": 2,
+        "defined_kappa_components": 2
+      }
+    },
+    {
+      "model": "nvidia/openai/gpt-oss-20b",
+      "rubric": "consistency",
+      "current": {
+        "matching": 52,
+        "n": 120,
+        "agreement": 0.43333333333333335,
+        "kappa": 0.22595107287239558,
+        "order_components": 2,
+        "defined_kappa_components": 2
+      },
+      "previous": {
+        "matching": 52,
+        "n": 120,
+        "agreement": 0.43333333333333335,
+        "kappa": 0.2273601891706013,
+        "order_components": 2,
+        "defined_kappa_components": 2
+      }
+    },
+    {
+      "model": "nvidia/openai/gpt-oss-20b",
+      "rubric": "refinement",
+      "current": {
+        "matching": 55,
+        "n": 120,
+        "agreement": 0.4583333333333333,
+        "kappa": 0.1523997830124103,
+        "order_components": 2,
+        "defined_kappa_components": 2
+      },
+      "previous": {
+        "matching": 56,
+        "n": 120,
+        "agreement": 0.4666666666666667,
+        "kappa": 0.13100763845233074,
+        "order_components": 2,
+        "defined_kappa_components": 2
+      }
+    },
+    {
+      "model": "nvidia/qwen/qwen3-32b",
+      "rubric": "transparency",
+      "current": {
+        "matching": 72,
+        "n": 120,
+        "agreement": 0.6,
+        "kappa": 0.31128578293402903,
+        "order_components": 2,
+        "defined_kappa_components": 2
+      },
+      "previous": {
+        "matching": 67,
+        "n": 120,
+        "agreement": 0.5583333333333333,
+        "kappa": 0.31268064798010353,
+        "order_components": 2,
+        "defined_kappa_components": 2
+      }
+    },
+    {
+      "model": "nvidia/qwen/qwen3-32b",
+      "rubric": "consistency",
+      "current": {
+        "matching": 84,
+        "n": 120,
+        "agreement": 0.7,
+        "kappa": 0.498878051370098,
+        "order_components": 2,
+        "defined_kappa_components": 2
+      },
+      "previous": {
+        "matching": 77,
+        "n": 120,
+        "agreement": 0.6416666666666667,
+        "kappa": 0.41996310719409713,
+        "order_components": 2,
+        "defined_kappa_components": 2
+      }
+    },
+    {
+      "model": "nvidia/qwen/qwen3-32b",
+      "rubric": "refinement",
+      "current": {
+        "matching": 77,
+        "n": 120,
+        "agreement": 0.6416666666666667,
+        "kappa": 0.3624484733520592,
+        "order_components": 2,
+        "defined_kappa_components": 2
+      },
+      "previous": {
+        "matching": 66,
+        "n": 120,
+        "agreement": 0.55,
+        "kappa": 0.2721280602636535,
+        "order_components": 2,
+        "defined_kappa_components": 2
+      }
+    },
+    {
+      "model": "nvidia/nvidia/Nemotron-3-Nano-30B-A3B",
+      "rubric": "transparency",
+      "current": {
+        "matching": 78,
+        "n": 120,
+        "agreement": 0.65,
+        "kappa": 0.2877298263534219,
+        "order_components": 2,
+        "defined_kappa_components": 2
+      },
+      "previous": {
+        "matching": 79,
+        "n": 120,
+        "agreement": 0.6583333333333333,
+        "kappa": 0.30946969696969695,
+        "order_components": 2,
+        "defined_kappa_components": 2
+      }
+    },
+    {
+      "model": "nvidia/nvidia/Nemotron-3-Nano-30B-A3B",
+      "rubric": "consistency",
+      "current": {
+        "matching": 81,
+        "n": 120,
+        "agreement": 0.675,
+        "kappa": 0.3458152227600514,
+        "order_components": 2,
+        "defined_kappa_components": 2
+      },
+      "previous": {
+        "matching": 84,
+        "n": 120,
+        "agreement": 0.7,
+        "kappa": 0.41063829787234046,
+        "order_components": 2,
+        "defined_kappa_components": 2
+      }
+    },
+    {
+      "model": "nvidia/nvidia/Nemotron-3-Nano-30B-A3B",
+      "rubric": "refinement",
+      "current": {
+        "matching": 78,
+        "n": 120,
+        "agreement": 0.65,
+        "kappa": 0.30485311655754854,
+        "order_components": 2,
+        "defined_kappa_components": 2
+      },
+      "previous": {
+        "matching": 76,
+        "n": 120,
+        "agreement": 0.6333333333333333,
+        "kappa": 0.2627340823970038,
+        "order_components": 2,
+        "defined_kappa_components": 2
+      }
+    }
+  ],
+  "qualitative": {
+    "scope": "Curated qualitative review of selected Transparency, Consistency, Refinement, and Overall ratings from six conversation pairs: the first two sorted pair IDs in each topic. The review includes both display orders, but is not a systematic coding of every rating or a prevalence estimate. These are tentative judging tendencies under this evaluation protocol.",
+    "reviewed_pair_ids": [
+      "pair-105d145f8c400be8",
+      "pair-19ca69c229a196c4",
+      "pair-1d8b25a3495c8228",
+      "pair-2a1d25107e8fd9c1",
+      "pair-0604302dce9329ea",
+      "pair-0d09f99ea8dc279b"
+    ],
+    "reviewed_primary_attempt_ids": {
+      "trace-06ab32a0bbfc805d": "32343b50bc02484eb948eb529b87cc81",
+      "trace-18c7af470a041f7e": "19cc0e9c97ec4e3db329c770e5fd7bfd",
+      "trace-568a14e800d5a318": "92661e7fec2a427cab30b604b343361b",
+      "trace-5735f90014edac2f": "e6197dbc8f0e404081ef88ec06e1d560",
+      "trace-5f59564fcfe8f094": "86a8f31610ce42a5b3af0f14478831d9",
+      "trace-612286dcd67b8fc6": "b7f5f8d00f0944d0b98f27f26445dd37",
+      "trace-63a83c3f47e118c6": "45b165e77b934ba58dca3c4cded005f5",
+      "trace-663e9c74c314d7f4": "5d7e48eed7f849dba3c0553fcd061590",
+      "trace-8bf6c73c6df51c49": "b87f30513cad4573ba9cb91bf772200d",
+      "trace-9f799ece421636ea": "6cb0fc7c49eb481aa9b99ddd08cde2b7",
+      "trace-a0efbd1e966707b4": "443869057696456f87df2d89d35c0522",
+      "trace-bc2e52e1e75b8f6f": "5db7cfb6926d4811848a474822272802",
+      "trace-c3e5be84b3eadad3": "4b1460bedef447679f4c99528f2317ac",
+      "trace-c7bb8e40490f648c": "543bcbbebac645f79de9369f6ca9ef26",
+      "trace-cf7c567c6c6865d9": "99b171e884f946e89ebedadbef2f0764",
+      "trace-f446bbc912f0694c": "ef57aded10484b5fa572cd768fd26124",
+      "trace-f9d05c0f19e8b90d": "7796ed61b28e40fcbfa8b7fa9964f7be"
+    },
+    "profiles": [
+      {
+        "model": "nvidia/openai/gpt-oss-20b",
+        "headline": "Checks completeness and concrete faults",
+        "summary": "In the fraud-versus-LSTM case, GPT favors the more complete solution for Overall and identifies a strict-inequality mismatch for Consistency. It can still credit the LSTM assistant's attempts to incorporate feedback for Refinement. In another Consistency comparison, it declines to distinguish the conversations when neither has a clear contradiction.",
+        "limitation": "This is not a uniformly strict or accurate judge. Some criticisms exceed the visible evidence, and its Transparency priorities can change when presentation order is reversed.",
+        "evidence": [
+          {
+            "label": "Overall: incomplete LSTM revisions lose to fraud guidance",
+            "job_id": "trace-8bf6c73c6df51c49",
+            "role": "example"
+          },
+          {
+            "label": "Consistency: distinguishes strictly greater from greater-or-equal",
+            "job_id": "trace-63a83c3f47e118c6",
+            "role": "example"
+          },
+          {
+            "label": "Consistency: no clear contradiction, so no preferred conversation",
+            "job_id": "trace-f9d05c0f19e8b90d",
+            "role": "example"
+          },
+          {
+            "label": "Qualification: credits feedback incorporation despite flawed code",
+            "job_id": "trace-a0efbd1e966707b4",
+            "role": "counterexample"
+          },
+          {
+            "label": "Caution: alleges a wrong #3 reference where #3 was clipped",
+            "job_id": "trace-5735f90014edac2f",
+            "role": "counterexample"
+          }
+        ]
+      },
+      {
+        "model": "nvidia/qwen/qwen3-32b",
+        "headline": "Credits adaptation and problem-solving",
+        "summary": "Qwen gives Overall credit to specific, iterative problem-solving: it favors the repeatedly revised LSTM conversation over fraud guidance in both orders. It also favors employment advice that adapts to the user's constraints over mathematical explanation and book recommendations, citing the evolving problem and tailored responses.",
+        "limitation": "Credit for adaptation does not establish that the revisions worked. Task complexity may influence the preference, and Qwen switches between completeness and visible revision when judging Refinement on the same code pair.",
+        "evidence": [
+          {
+            "label": "Overall: repeated code adjustments count as responsive interaction",
+            "job_id": "trace-663e9c74c314d7f4",
+            "role": "example"
+          },
+          {
+            "label": "Overall: the LSTM preference survives reversed presentation",
+            "job_id": "trace-612286dcd67b8fc6",
+            "role": "example"
+          },
+          {
+            "label": "Refinement: recognizes the employment user's new constraints",
+            "job_id": "trace-9f799ece421636ea",
+            "role": "example"
+          },
+          {
+            "label": "Counterexample: incomplete revisions lose on Refinement in AB",
+            "job_id": "trace-c7bb8e40490f648c",
+            "role": "counterexample"
+          },
+          {
+            "label": "Order reversal: active revisions win on Refinement in BA",
+            "job_id": "trace-18c7af470a041f7e",
+            "role": "counterexample"
+          }
+        ]
+      },
+      {
+        "model": "nvidia/nvidia/Nemotron-3-Nano-30B-A3B",
+        "headline": "Favors coherence and focused guidance",
+        "summary": "Nemotron sometimes rewards a focused line of explanation and a stable stance. In the finance-versus-browser-tools case, it favors finance for Consistency in both orders, even while recognizing that the tool recommendation changed for a reason. Structured explanations and concrete guidance also feature in its judgments.",
+        "limitation": "This profile is less distinctive because the other judges use similar criteria. Its stated priorities can reverse with order, and some traces mix information from the two conversations or apply one user's goal to both.",
+        "evidence": [
+          {
+            "label": "Consistency: stable finance stance beats changing tool suggestions",
+            "job_id": "trace-bc2e52e1e75b8f6f",
+            "role": "example"
+          },
+          {
+            "label": "Consistency: the finance preference survives reversed presentation",
+            "job_id": "trace-5f59564fcfe8f094",
+            "role": "example"
+          },
+          {
+            "label": "Refinement in AB: structured finance explanations win",
+            "job_id": "trace-f446bbc912f0694c",
+            "role": "counterexample"
+          },
+          {
+            "label": "Refinement in BA: adapting the browser recommendation wins",
+            "job_id": "trace-c3e5be84b3eadad3",
+            "role": "counterexample"
+          },
+          {
+            "label": "Caution: attributes LSTM turns to the fraud conversation",
+            "job_id": "trace-cf7c567c6c6865d9",
+            "role": "counterexample"
+          }
+        ]
+      }
+    ],
+    "case_study": {
+      "title": "Same conversations, different credit for iterative work",
+      "pair_id": "pair-2a1d25107e8fd9c1",
+      "summary": "Original A contains fraud-detection guidance; original B contains repeated changes to LSTM forecasting code. Their Overall ratings expose a tradeoff between completeness and responsiveness. The choices below use original conversation identities, so they remain comparable after display order is reversed.",
+      "readings": [
+        {
+          "model": "nvidia/openai/gpt-oss-20b",
+          "summary": "Selects fraud guidance (original A) in both orders. It penalizes incomplete or incorrect LSTM changes and an unresolved speed request. The reversed trace also partly treats the fraud user's goal as shared, so the stable choice does not establish a wholly sound rationale.",
+          "job_ids": [
+            "trace-8bf6c73c6df51c49",
+            "trace-06ab32a0bbfc805d"
+          ]
+        },
+        {
+          "model": "nvidia/qwen/qwen3-32b",
+          "summary": "Selects LSTM revisions (original B) in both orders. It credits specific code changes and adaptation across turns, placing more weight on the visible problem-solving process in this comparison.",
+          "job_ids": [
+            "trace-663e9c74c314d7f4",
+            "trace-612286dcd67b8fc6"
+          ]
+        },
+        {
+          "model": "nvidia/nvidia/Nemotron-3-Nano-30B-A3B",
+          "summary": "Selects LSTM (original B) in AB, then fraud guidance (original A) in BA. The first trace rewards targeted changes but mistakenly assigns some LSTM content to the fraud conversation; the reversed trace instead emphasizes the LSTM errors and the fraud conversation's structure.",
+          "job_ids": [
+            "trace-cf7c567c6c6865d9",
+            "trace-568a14e800d5a318"
+          ]
+        }
+      ]
+    },
+    "limitations": [
+      "Native traces are same-call, provider-returned text. They expose stated reasoning, but may be incomplete or unfaithful to the process that caused the verdict.",
+      "These examples support hypotheses about judging tendencies, not innate personalities, model accuracy, or the frequency of each reasoning pattern across the study.",
+      "A judge can use different criteria across dimensions and after order reversal. A stable verdict can also conceal different or erroneous supporting descriptions.",
+      "Some traces misread or combine conversations. The frozen inputs also clip parts of long turns, so an apparent omission, mismatch, or incomplete answer may reflect preprocessing. Check claims against the actual displayed input.",
+      "The earlier pilot did not save native traces. Verdict patterns can be compared across runs; changes in reasoning style cannot be established from that comparison.",
+      "All profiles are conditional on these conversation pairs, rubric wording, model versions, provider settings, and presentation protocol. The six-pair review is illustrative and was not randomly sampled."
+    ]
+  },
+  "public_export": {
+    "export_version": 1,
+    "source": "saved dashboard snapshot",
+    "dataset": "WildChat-1M (AllenAI)",
+    "dataset_url": "https://huggingface.co/datasets/allenai/WildChat-1M",
+    "license": "ODC-BY-1.0",
+    "license_url": "https://opendatacommons.org/licenses/by/1-0/",
+    "redaction_note": "Public excerpts have identifying path segments and private network addresses redacted; ratings and statistics use the original frozen inputs.",
+    "redactions": {
+      "unique_user_profile_prefixes": 2,
+      "unique_private_network_addresses": 1,
+      "conversations_with_redactions": 3
+    }
+  }
+}
