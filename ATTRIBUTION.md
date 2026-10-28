@@ -6,8 +6,8 @@ Dataset citation: Zhao, W., Ren, X., Hessel, J., Cardie, C., Choi, Y., and Deng,
 
 This study uses English conversation text from WildChat-1M, excludes dataset-flagged toxic conversations, and omits source geolocation, hashed IP, and request-header metadata. The displayed text retains the evaluation's clipping.
 
-Public excerpts have identifying path segments and private network addresses redacted; ratings and statistics use the original frozen inputs.
+Public excerpts have identifying path segments, private network addresses, and credential-like strings redacted; ratings and statistics use the original frozen inputs.
 
-Public redactions: 2 distinct user-profile prefixes; 1 distinct private network addresses; 3 affected conversations. Original identifying values are not included in this export.
+Public redactions: 2 distinct user-profile prefixes; 1 distinct private network addresses; 2 distinct credential-like values; 3 affected conversations. Original identifying values are not included in this export.
 
 ODC-BY governs database rights; it does not grant all independent rights in individual contents. This attribution does not imply endorsement of the ratings by the dataset authors.

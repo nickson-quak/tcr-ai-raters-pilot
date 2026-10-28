@@ -125,4 +125,4 @@ Generated: 2026-10-22T21:31:53.241038+00:00
 
 Conversation excerpts come from [WildChat-1M (AllenAI)](https://huggingface.co/datasets/allenai/WildChat-1M), available under the [ODC Attribution License 1.0](https://opendatacommons.org/licenses/by/1-0/).
 
-Public excerpts have identifying path segments and private network addresses redacted; ratings and statistics use the original frozen inputs.
+Public excerpts have identifying path segments, private network addresses, and credential-like strings redacted; ratings and statistics use the original frozen inputs.

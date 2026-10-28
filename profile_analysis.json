@@ -456,10 +456,11 @@
     "dataset_url": "https://huggingface.co/datasets/allenai/WildChat-1M",
     "license": "ODC-BY-1.0",
     "license_url": "https://opendatacommons.org/licenses/by/1-0/",
-    "redaction_note": "Public excerpts have identifying path segments and private network addresses redacted; ratings and statistics use the original frozen inputs.",
+    "redaction_note": "Public excerpts have identifying path segments, private network addresses, and credential-like strings redacted; ratings and statistics use the original frozen inputs.",
     "redactions": {
       "unique_user_profile_prefixes": 2,
       "unique_private_network_addresses": 1,
+      "unique_credential_values": 2,
       "conversations_with_redactions": 3
     }
   }

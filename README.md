@@ -15,7 +15,7 @@ The saved study contains 60 pairs and 1440 valid judgments, covering every confi
 
 Agreement does not establish accuracy. Model profiles are task-specific observations, not innate personality. Curated examples are exploratory; native text is not a verified account of the decision process.
 
-Public excerpts have identifying path segments and private network addresses redacted; ratings and statistics use the original frozen inputs.
+Public excerpts have identifying path segments, private network addresses, and credential-like strings redacted; ratings and statistics use the original frozen inputs.
 
 Conversation excerpts come from [WildChat-1M (AllenAI)](https://huggingface.co/datasets/allenai/WildChat-1M), available under the [ODC Attribution License 1.0](https://opendatacommons.org/licenses/by/1-0/).
 
